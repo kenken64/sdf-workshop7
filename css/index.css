@@ -1,0 +1,50 @@
+body{
+    background-image: url('../img/background.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 20% 20%;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+.my-full-height{
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+.my-intro-panel{
+	color: white;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.my-thick-hr{
+	width: 63px;
+	border-width: 21px;
+	border-bottom: 0;
+	border-color: #766b6d;
+	margin: 1em 0 1em 0;
+}
+.my-thin-hr{
+    width: 100%;
+    border-width: 3px;
+    border-bottom: 0;
+    border-color: gray;
+    margin: 1em 0 1em 0;
+}
+input[type=text].my-input,input[type=email].my-input{
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 0 0 1px 0;
+    border-color: gray;
+    color: #FFA0AC;
+    height: 0.5em;
+}
+
+.my-btn{
+    border-radius: 0;
+    background-color: #81545a;
+    color: white;
+    font-weight: bold;
+}

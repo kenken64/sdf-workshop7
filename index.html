@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!-- 1. Set your page title -->
+    <title>Meet Kenneth</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/css/bootstrap-flex.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row flex-items-xs-middle flex-items-xs-center flex-items-md-right my-full-height">
+            <div class="col-xs-10 col-md-6 col-lg-4 flex-xs-middle my-intro-panel">
+                
+                <!-- 1. insert your name here -->
+                <h1 class="display-1">meet Kenneth</h1>
+                <!-- 2. what are you? -->
+                <h6>Full stack web developer</h6>
+                <!-- 3. short description about yourself -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <dl>
+                   <dt><i class="fa fa-envelope-open-o"></i> email</dt> 
+                   <!-- 4. your public email -->
+                   <dd>isskpty@nus.edu.sg</dd>
+                   <dt><i class="fa fa-phone"></i> phone</dt> 
+                   <!-- 5. your contact number -->
+                   <dd>+65 914 505 17</dd>
+               </dl>
+               <hr class="my-thin-hr">
+
+               <!-- 6. change the action url to your Google App address -->
+               <form method="post" action="https://script.google.com/macros/s/AKfycbzcSyQfBmGQfFFik_Y-FxwTAdEbD6h8MYjH-ysSEEzhwd1gnz8/exec">
+                    <fieldset>
+                        <legend>Contact Me</legend>
+                        <div class="form-group">
+                            <label for="name-id">
+                                name
+                            </label>
+                            <input type="text" name="NAME" id="name-id" class="form-control my-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email-id">
+                                email
+                            </label>
+                            <input type="email" name="EMAIL" id="email-id" class="form-control my-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-default my-btn form-control" id="submit-id">submit</button>
+                            
+                            <div class="alert alert-danger alert-dismissible fade in" hidden id="alert-id">
+                                <button type="button" class="close" id="close-id">
+                                    <span>&times;</span>
+                                </button>
+  
+                                Thank you! I will get in touch.
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/tether/1.4.0/tether.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
